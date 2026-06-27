@@ -7,8 +7,8 @@
 
 const VK_AUTH_CONFIG = {
   // Эти значения — публичные (видны в JS), это нормально для OAuth 2.1 PKCE.
-  // <-- вставим после создания Standalone в VK ID Cabinet
-  clientId: "[TODO-VK-CLIENT-ID]",
+  // Standalone ID_приложения из VK ID Cabinet (на модерации)
+  clientId: "54654398",
   authorizeUrl: "https://id.vk.ru/authorize",
   redirectUri: window.location.origin + "/oauth-callback.html",
   // При подключении сообществ добавим: "groups wall photos"
